@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    consul:
+      host: 192.168.82.147
+      port: 8501
+      config:
+        failfast: false
